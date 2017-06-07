@@ -1,5 +1,5 @@
 // User-specific configuration
-exports.conversationWorkspaceId = ''; // replace with the workspace identifier of your conversation
+exports.conversationWorkspaceId = '433578db-ee0e-4165-bd2b-dfdeb1521da6'; // replace with the workspace identifier of your conversation
 
 // Create the credentials object for export
 exports.credentials = {};

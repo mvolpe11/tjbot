@@ -46,8 +46,8 @@ tj.listen(function(msg) {
     // check to see if they are talking to TJBot
     if (msg.startsWith(tj.configuration.robot.name)) {
         // remove our name from the message
-        // var turn = msg.toLowerCase().replace(tj.configuration.robot.name.toLowerCase(), "");
-var turn = "Hey Watson, tell me a joke";
+        var turn = msg.toLowerCase().replace(tj.configuration.robot.name.toLowerCase(), "");
+
         // send to the conversation service
         tj.converse(WORKSPACEID, turn, function(response) {
             // speak the result
